@@ -2,6 +2,15 @@
 
 This project contains a simple Hardhat script to deploy and interact with an ERC20 token smart contract. It includes functionality to transfer tokens to a receiver and verify whether the transaction was successful by checking the receiver's balance before and after the transfer.
 
+### How to Use:
+
+1. **Clone or Download the Repository**: If you're working within a repository, clone or download it to your local machine.
+2. **Install Dependencies**: Run `npm install` in the project directory to install all necessary dependencies.
+3. **Compile and Deploy the Contract**: Use `npx hardhat compile` to compile the contracts and `npx hardhat run scripts/deploy.js --network ganache` to deploy your contract to Ganache.
+4. **Run the Transaction Check**: Run the script using `npx hardhat run checkTransaction.js --network ganache` to check the transfer and balance.
+5. **Customization**: Modify the contract address, receiver address, and token amount as needed in the script.
+
+
 ## Requirements
 
 - [Node.js](https://nodejs.org/)
@@ -87,14 +96,5 @@ You can modify the script to:
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-
-### How to Use:
-
-1. **Clone or Download the Repository**: If you're working within a repository, clone or download it to your local machine.
-2. **Install Dependencies**: Run `npm install` in the project directory to install all necessary dependencies.
-3. **Compile and Deploy the Contract**: Use `npx hardhat compile` to compile the contracts and `npx hardhat run scripts/deploy.js --network ganache` to deploy your contract to Ganache.
-4. **Run the Transaction Check**: Run the script using `npx hardhat run checkTransaction.js --network ganache` to check the transfer and balance.
-5. **Customization**: Modify the contract address, receiver address, and token amount as needed in the script.
 
 Let me know if you need any further changes or additional details!
