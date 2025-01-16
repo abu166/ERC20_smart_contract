@@ -48,7 +48,7 @@ After compilation, deploy the contract using:
 ```bash
 npx hardhat run scripts/deploy.js --network ganache
 ```
-
+![deployTransaction](photos/deploy.png)
 This command will deploy your ERC20 contract to the Ganache network.
 
 #### 2. Run the Transaction Check
@@ -60,7 +60,7 @@ To run the transaction check, use:
 ```bash
 npx hardhat run checkTransaction.js --network ganache
 ```
-
+![checkTransaction](photos/receive.png)
 # Token Transfer Script
 
 This script performs the following actions:
@@ -79,6 +79,8 @@ After running the script, the console will display the following information:
 - **Transaction status**: Confirms whether the transfer was successful.
 - **Receiver's balance after the transfer**: Displays the balance after the tokens are sent.
 - **Confirmation of receipt**: Confirms if the receiver received the expected amount of tokens.
+
+![checkTransation](photos/send.png)
 
 ## Customization
 
