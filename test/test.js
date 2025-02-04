@@ -12,7 +12,7 @@ async function main() {
     console.log("Address 1:", recipient1.address);
     console.log("Address 2:", recipient2.address);
 
-    const token = await ethers.getContractAt("ERC20_smart_contract", "0x2Dd955d96df652a37B73d03bb39904200dA3050a");
+    const token = await ethers.getContractAt("ERC20_smart_contract", "0xa57Bf67EaC1F79155Aa327e96E48e71f6417a230");
 
     // Check balances before transfer
     const balanceBefore = await token.balanceOf(owner.address);

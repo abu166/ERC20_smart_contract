@@ -43,6 +43,10 @@ To compile the contracts, run the following command in your project directory:
 npx hardhat compile
 ```
 
+```bash
+npx hardhat node
+```
+
 After compilation, deploy the contract using:
 
 ```bash
@@ -54,6 +58,11 @@ This command will deploy your ERC20 contract to the Ganache network.
 #### 2. Run the Transaction Check
 
 Once the contract is deployed, you can use the script to send tokens to a receiver address and verify the transfer. The script will check the receiver's balance before and after the transaction.
+
+Test the transatction, use:
+```bash
+npx hardhat run test/test.js --network ganache
+```
 
 To run the transaction check, use:
 
