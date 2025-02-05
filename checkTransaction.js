@@ -2,8 +2,8 @@ const { ethers } = require("hardhat");
 
 async function main() {
   // Replace with your contract address and receiver address
-  const contractAddress = "0xa57Bf67EaC1F79155Aa327e96E48e71f6417a230";
-  const receiverAddress = "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266";
+  const contractAddress = "0x61B41BAA5A20f8325516ab21cd9d39Fc2ca3ef27";
+  const receiverAddress = "0x7F4b8E1fed444D0df7885c04d4f25Ecfc13a4699";
   const amount = ethers.utils.parseUnits("10", 18); // 10 tokens (adjust based on your token decimals)
 
   // Get the deployed contract instance

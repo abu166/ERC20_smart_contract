@@ -13,15 +13,16 @@ describe("ERC20 Smart Contract", function () {
         await token.deployed();
 
 
-        // Debugging logs
         console.log("Owner Address:", owner.address);
         console.log("Contract Address:", token.address);
-        console.log("Owner Balance:", (await token.balanceOf(owner.address)).toString());
-        console.log("Total Supply:", (await token.totalSupply()).toString());
+
     });
 
     it("Should deploy with correct initial supply", async function () {
-      expect(await token.totalSupply()).to.equal(ethers.utils.parseUnits("2000", 18));
+      const totalSupply = await token.totalSupply();
+        console.log("Total Supply:", totalSupply.toString());
+
+        expect(totalSupply).to.equal(ethers.utils.parseUnits("2000", 18));
         expect(await token.balanceOf(owner.address)).to.equal(ethers.utils.parseEther("2000"));
     });
 

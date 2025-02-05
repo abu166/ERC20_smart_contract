@@ -1,0 +1,4 @@
+const token = await ethers.getContractAt("ERC20_smart_contract", "0x13659f99549b76f8dceD505734b44453E90C250f");
+console.log(balance.toString());
+const balance = await token.balanceOf("0xd1574f8325A6e9E738FDd26F3CF7D71A2FBC11C4");
+const token = await ethers.getContractAt("ERC20_smart_contract", "0x13659f99549b76f8dceD505734b44453E90C250f");

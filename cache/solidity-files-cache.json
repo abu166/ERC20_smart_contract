@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/Users/abukhassymkhydyrbayev/Documents/GitHub/ERC20_smart_contract/contracts/AITU_SE-2318_Token.sol": {
-      "lastModificationDate": 1738682999897,
-      "contentHash": "5805d57b8bca6d16b0dcb53829a12e39",
+      "lastModificationDate": 1738740909496,
+      "contentHash": "ea85e9a376e93db5cde52bd92e4e87b8",
       "sourceName": "contracts/AITU_SE-2318_Token.sol",
       "solcConfig": {
         "version": "0.8.20",
@@ -29,16 +29,9 @@
           }
         }
       },
-      "imports": [
-        "@openzeppelin/contracts/token/ERC20/ERC20.sol",
-        "@openzeppelin/contracts/utils/Strings.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.20"
-      ],
-      "artifacts": [
-        "ERC20_smart_contract"
-      ]
+      "imports": [],
+      "versionPragmas": [],
+      "artifacts": []
     },
     "/Users/abukhassymkhydyrbayev/Documents/GitHub/ERC20_smart_contract/node_modules/@openzeppelin/contracts/utils/Strings.sol": {
       "lastModificationDate": 1738593291275,
@@ -416,6 +409,45 @@
       ],
       "artifacts": [
         "IERC20Metadata"
+      ]
+    },
+    "/Users/abukhassymkhydyrbayev/Documents/GitHub/ERC20_smart_contract/contracts/Modified_token.sol": {
+      "lastModificationDate": 1738740912428,
+      "contentHash": "38d47889c2c758c8d44e286912944b8b",
+      "sourceName": "contracts/Modified_token.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+        "@openzeppelin/contracts/utils/Strings.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "ERC20_smart_contract"
       ]
     }
   }
